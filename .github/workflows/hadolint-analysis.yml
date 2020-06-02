@@ -6,7 +6,7 @@ on:
     - '**/Dockerfile'
 
 jobs:
-  4:
+  v4:
     name: Dockerfile-Linting
     runs-on: ubuntu-latest
     steps:
