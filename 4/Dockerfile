@@ -1,6 +1,6 @@
 FROM debian:stretch-slim
 
-ARG SONAR_SCANNER_HOME=/opt/sonar-scanner
+ARG SONAR_SCANNER_HOME=/opt/sonar-scanner-dummy
 ARG NODEJS_HOME=/opt/nodejs
 ARG UID=1000
 ARG GID=1000
